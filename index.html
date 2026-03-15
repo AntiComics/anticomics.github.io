@@ -1,33 +1,128 @@
 <!DOCTYPE html>
 <html>
+
 <head>
+
 <title>AntiComics Universe</title>
+
 <style>
+
 body{
+margin:0;
 background:black;
 color:white;
 font-family:Arial;
+}
+
+header{
+height:100vh;
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
 text-align:center;
-margin-top:100px;
 }
 
 h1{
-font-size:60px;
-letter-spacing:5px;
+font-size:80px;
+letter-spacing:8px;
+margin:0;
+}
+
+.subtitle{
+color:gray;
+font-size:22px;
+margin-top:10px;
+}
+
+button{
+margin-top:40px;
+padding:15px 40px;
+font-size:18px;
+background:white;
+color:black;
+border:none;
+cursor:pointer;
+}
+
+section{
+padding:120px 20%;
+}
+
+h2{
+font-size:40px;
+margin-bottom:20px;
 }
 
 p{
 color:gray;
-font-size:20px;
+font-size:18px;
+line-height:1.6;
 }
+
 </style>
+
 </head>
 
 <body>
 
+<header>
+
 <h1>ANTICOMICS</h1>
-<p>Universe Project</p>
-<p>Author: AntiComics</p>
+<div class="subtitle">A Dark Graphic Universe</div>
+
+<button onclick="document.getElementById('universe').scrollIntoView()">
+Explore
+</button>
+
+</header>
+
+
+<section id="universe">
+
+<h2>Universe</h2>
+
+<p>
+AntiComics is a graphic universe exploring darker narratives, anti-heroes
+and symbolic worlds beyond traditional comics.
+</p>
+
+</section>
+
+
+<section>
+
+<h2>Projects</h2>
+
+<p>
+Here will appear the main comics and graphic stories of the AntiComics universe.
+</p>
+
+</section>
+
+
+<section>
+
+<h2>Characters</h2>
+
+<p>
+Profiles of protagonists, antagonists and entities from the AntiComics universe.
+</p>
+
+</section>
+
+
+<section>
+
+<h2>About</h2>
+
+<p>
+Created by AntiComics. A personal project exploring visual storytelling
+through illustration and narrative worlds.
+</p>
+
+</section>
+
 
 </body>
 </html>
